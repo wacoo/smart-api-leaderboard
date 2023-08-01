@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#parent {
+  display: flex;
+  justify-content: center;
+}
+
+.recent-scores,
+.frm-add-score {
+  width: 40%;
+  margin: 2%;
+  border-radius: 5px;
+  border: gray solid 2px;
+}
+
+.recent-scores {
+  padding: 12px;
+}
+
+.frm-add-score {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  min-width: 100px;
+  max-height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  color: black;
+  border: black solid 2px;
+  border-radius: 3px;
+  padding: 5px 0;
+  font-weight: 600;
+}
+
+.recent-scores h3 {
+  width: 100%;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.frm-add-score h3 {
+  width: 100%;
+  margin: 0 0 12px 0;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.frm-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 30px;
+}
+
+.score-display {
+  border: gray solid 2px;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 10px;
+}
+
+.score-display ul {
+  list-style-type: none;
+}
+
+.score-display li {
+  font-weight: 500;
+  padding: 8px 12px;
+}
+
+li:nth-child(even) {
+  background-color: lightgray;
+}
+
+li:nth-child(odd) {
+  background-color: gray;
+}
