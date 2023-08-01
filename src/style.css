@@ -1,7 +1,62 @@
-body {
-  background-color: bisque;
+* {
+  margin: 0;
+  padding: 0;
+}
+ body {
+  font-family: sans-serif;
+ }
+#parent {
+  display: flex;
+  justify-content: center;
+}
+
+.recent-scores,
+.frm-add-score {
+  width: 40%;
+  margin: 2%;
+  border: gray solid 2px;
+}
+
+.recent-scores {
+  padding: 12px;
+}
+
+.frm-add-score {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  /* outline: pink solid 2px; */
+}
+
+button {
+  min-width: 100px;
+  max-height: 25px;
+}
+
+.recent-scores h3 {
+  width: 100%;
+  font-size: 30px;
+  font-family: sans-serif;
+  /* outline: green solid 2px; */
+}
+.frm-add-score h3 {
+  width: 100%;
+  margin: 0 0 12px 0;
+  font-size: 30px;
+  font-family: sans-serif;
+  /* outline: green solid 2px; */
+}
+
+.frm-wrap {
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
-  color: lightblue;
+  margin: 50px;
 }
