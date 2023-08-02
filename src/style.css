@@ -95,3 +95,11 @@ li:nth-child(even) {
 li:nth-child(odd) {
   background-color: gray;
 }
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
