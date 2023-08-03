@@ -22,8 +22,8 @@ class DOMManipulator {
         const col3 = row.insertCell();
         col1.innerHTML = score.user;
         col2.innerHTML = score.score;
-        col1.style.width = '250px';
-        col2.style.width = '100px';
+        col1.style.width = '200px';
+        col2.style.width = '120px';
         col3.style.width = '50px';
         li.appendChild(table);
         if (idx === 0) {
