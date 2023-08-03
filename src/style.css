@@ -4,7 +4,9 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Black Ops One', cursive;
+  background-color: #faf2d9;
+  text-align: center;
 }
 
 #parent {
@@ -17,7 +19,8 @@ body {
   width: 40%;
   margin: 2%;
   border-radius: 5px;
-  border: gray solid 2px;
+  border: white solid 2px;
+  background-color: #fff;
 }
 
 .recent-scores {
@@ -29,6 +32,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: left;
 }
 
 .heading {
@@ -42,25 +46,33 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
-  color: black;
-  border: black solid 2px;
+  background-color: rgb(93, 166, 250);
+  color: #fff;
+  border: rgb(93, 166, 250) solid 2px;
   border-radius: 3px;
   padding: 5px 0;
   font-weight: 600;
 }
 
+button:hover {
+  background-color: #fff;
+  color: rgb(93, 166, 250);
+}
+
+button:active {
+  background-color: rgb(93, 166, 250);
+  color: #fff;
+}
+
 .recent-scores h3 {
   width: 100%;
   font-size: 30px;
-  font-family: sans-serif;
 }
 
 .frm-add-score h3 {
   width: 100%;
   margin: 0 0 12px 0;
   font-size: 30px;
-  font-family: sans-serif;
 }
 
 .frm-wrap {
@@ -74,9 +86,10 @@ h1 {
 
 .score-display {
   border: gray solid 2px;
-  padding: 12px;
+  padding: 2px;
   margin-top: 12px;
   border-radius: 10px;
+  background-color: #a3c6c4;
 }
 
 .score-display ul {
@@ -84,16 +97,18 @@ h1 {
 }
 
 .score-display li {
-  font-weight: 500;
-  padding: 8px 12px;
+  font-weight: 600;
+  padding: 8px 10%;
+  display: flex;
+  text-align: left;
 }
 
 li:nth-child(even) {
-  background-color: lightgray;
+  background-color: rgb(200, 227, 245);
 }
 
 li:nth-child(odd) {
-  background-color: gray;
+  background-color: #d8f7fc;
 }
 
 .success {
@@ -102,4 +117,18 @@ li:nth-child(odd) {
 
 .error {
   color: red;
+}
+
+td {
+  width: 150px;
+}
+
+input {
+  width: 100%;
+}
+
+.crown {
+  width: 50px;
+  height: 40px;
+  margin: 0 12px;
 }
