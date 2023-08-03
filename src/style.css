@@ -57,6 +57,7 @@ button {
 .heading button {
   margin-top: 8px;
 }
+
 button:hover {
   background-color: #fff;
   color: rgb(93, 166, 250);
