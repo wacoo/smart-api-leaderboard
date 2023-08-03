@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Black Ops One', cursive;
-  background-color: #f58721;
+  background-color: rgba(248, 134, 4, 0.7);
   text-align: center;
 }
 
@@ -54,6 +54,9 @@ button {
   font-weight: 600;
 }
 
+.heading button {
+  margin-top: 8px;
+}
 button:hover {
   background-color: #fff;
   color: rgb(93, 166, 250);
@@ -67,12 +70,14 @@ button:active {
 .recent-scores h3 {
   width: 100%;
   font-size: 30px;
+  text-align: left;
 }
 
 .frm-add-score h3 {
   width: 100%;
   margin: 0 0 12px 0;
   font-size: 30px;
+  text-align: left;
 }
 
 .frm-wrap {
